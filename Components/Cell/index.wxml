@@ -1,0 +1,8 @@
+<!--Components/Cell/index.wxml-->
+<view class='x-cell {{borderLine?"border-line":""}} {{borderLineOffset?"border-line border-line-offset":""}}' bind:tap="toUrl">
+  <slot name="icon"></slot>
+  <view class='title'>{{title}}</view>
+  <view class='desc {{isLink?"mr-l":""}}'>{{desc}}</view>
+  <slot name="desc"></slot>
+  <image wx:if="{{isLink}}" class='link-icon' src='{{arrawIcon}}'></image>
+</view>

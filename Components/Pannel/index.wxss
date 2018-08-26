@@ -1,0 +1,35 @@
+/* Components/Pannel/index.wxss */
+.x-pannel{
+  background: #fff;
+  padding: 15rpx 20rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+.title{
+  font-size: 30rpx;
+  display: flex;
+}
+.title-left{
+  flex: 1;
+  color: #000;
+  margin-bottom: 20rpx;
+  display: inline-block
+}
+
+.red{
+  color: #f70000;
+}
+
+.row{
+  display: flex;
+}
+
+.clo{
+  /* background: #eee; */
+  min-height: 30rpx;
+  margin:3rpx 0;
+}
+
+.clo-l{
+  flex: 1;
+}

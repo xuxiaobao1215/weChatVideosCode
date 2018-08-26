@@ -1,0 +1,12 @@
+<!--pages/share/index.wxml-->
+<view>
+  <view class='list'>
+    <x-Gooditem
+    wx:for="{{list}}"
+    wx:key="{{index}}"
+    wx:item="{{item}}"
+    to="../play/index?id={{item.id}}&categoryCode={{item.categoryCode}}"
+    imgUrl="{{item.productImage}}" title="{{item.productName}}" num="{{item.playCounts}}" class="martop20"></x-Gooditem>
+  </view>
+  <x-loadmoreLoding status="{{status}}" bind:tapError="onTapError"></x-loadmoreLoding>
+</view>

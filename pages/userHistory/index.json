@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "购买历史",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "x-Gooditem": "/Components/GoodItem/index",
+    "x-loadmoreLoding": "/Components/LoadmoreLoding/index"
+  }
+}

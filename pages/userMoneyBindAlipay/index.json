@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "绑定支付宝",
+  "usingComponents": {
+    "x-cell": "/Components/Cell/index"
+  }
+}

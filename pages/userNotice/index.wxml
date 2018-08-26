@@ -1,0 +1,8 @@
+<!--pages/share/index.wxml-->
+<view class='martop20'></view>
+<x-msg
+wx:for="{{list}}"
+wx:key="{{index}}"
+wx:item="{{item}}"
+title="{{item.title}}" desc="{{item.content}}" time="{{item.createTime}}" borderLine></x-msg>
+<x-loadmoreLoding status="{{status}}" bind:tapError="onTapError"></x-loadmoreLoding>

@@ -1,0 +1,20 @@
+<!--pages/moneyDetailed/index.wxml-->
+<view
+  wx:for="{{list}}"
+  wx:key="index"
+  wx:item="item"
+  class='martop20'
+>
+ <x-pannel
+  money='{{item.money}}' 
+  orderNo="{{item.orderNum}}" 
+  alipayNo="{{item.accountNum}}" 
+  date="2018-6-17 14:55:00"
+  status="{{statusType[item.status]}}"
+  ></x-pannel> 
+</view>
+<x-loadmoreLoding status="{{status}}" bind:tapError="onTapError"></x-loadmoreLoding>
+
+
+
+

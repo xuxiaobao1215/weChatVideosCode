@@ -1,0 +1,45 @@
+/* pages/myHome/index.wxss */
+
+
+.icon{
+  margin-right: 20rpx;
+}
+
+.mai-btn{
+  display: inline-block;
+  background-color: rgb(20, 138, 167);
+  color: #FFF;
+  font-size: 24rpx;
+  padding: 10rpx 30rpx;
+  border-radius: 28rpx;
+  text-align: center;
+}
+
+.msgTips{
+
+  margin-right: 20rpx;
+  padding:5rpx 15rpx;
+  box-sizing: border-box;
+  border-radius:  500rpx;
+  background: red;
+  color: #FFF;
+  font-size: 24rpx;
+}
+
+.shareBtn{
+  background-color: transparent;
+  position:static;
+display:block;
+margin-left:auto;
+margin-right:auto;
+padding-left:0px;
+padding-right:0px;
+box-sizing:border-box;
+font-size:0px;
+text-align:left;
+text-decoration:none;
+line-height:1.5;
+border-radius:5px;
+-webkit-tap-highlight-color:transparent;
+overflow:hidden;
+}

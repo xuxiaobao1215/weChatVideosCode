@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/userHome/index",
+    "pages/userVip/index",
+    "pages/logs/logs",
+    "pages/play/index",
+    "pages/userMoney/index",
+    "pages/userColle/index",
+    "pages/userHomeCenter/index",
+    "pages/userVipHistory/index",
+    "pages/userMoneyExportHistory/index",
+    "pages/userHistory/index",
+    "pages/userNotice/index",
+    "pages/userMoneyBindAlipay/index",
+    "pages/userMoneyExport/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#148aa7",
+    "backgroundColor": "#fff",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"/images/@2x/shouyeweixuanzhong@2x.png",
+        "selectedIconPath":"/images/@2x/shouyexuanzhong@2x.png"
+      },
+      {
+        "pagePath": "pages/userHome/index",
+        "text": "我的",
+        "iconPath": "/images/@2x/wodeweixuanzhong@2x.png",
+        "selectedIconPath": "/images/@2x/wodexuanzhong@2x.png"
+      }
+    ]
+  },
+  "networkTimeout":{
+    "request":10000
+  }
+}

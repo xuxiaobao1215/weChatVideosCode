@@ -1,0 +1,39 @@
+/* Components/GoodItem/index.wxss */
+
+.good-item{
+  display: inline-block;
+  padding: 11rpx;
+  background: #FFF;
+  width: 334rpx;
+  box-sizing: border-box;
+  border-radius: 5rpx;
+}
+
+.header-img{
+  width: 312rpx;
+  height: 268rpx;
+  background: #EEE;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header-img image{
+  /* width: 100%; */
+   /* height: 100%;  */
+}
+
+.title{
+  font-size: 28rpx;
+  padding: 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+
+.num{
+  font-size: 24rpx;
+  padding: 10rpx;
+  color: #666;
+}
+
